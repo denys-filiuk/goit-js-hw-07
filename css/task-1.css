@@ -1,7 +1,9 @@
 #categories {
   margin: 0 auto;
   padding: 24px;
-  width: 400px;
+  width: 440px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .item {
@@ -24,7 +26,7 @@
   color: #2e2f42;
 }
 
-.item li {
+.item-list li {
   width: 360px;
   height: 40px;
   border: 1px, solid, #808080;
