@@ -1,11 +1,19 @@
 .gallery {
+  min-width: 1440px;
+  padding: 100px 156px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
   justify-content: center;
+  background-color: #fff;
 }
 
 .gallery-item {
   list-style: none;
+}
+
+.gallery-image {
+  height: 100%;
+  object-fit: cover;
 }

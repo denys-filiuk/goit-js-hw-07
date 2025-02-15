@@ -26,17 +26,14 @@
   color: #2e2f42;
 }
 
-.item-list li {
+.item-list > li {
   width: 360px;
   height: 40px;
+  padding: 8px 16px;
   border: 1px, solid, #808080;
   border-radius: 4px;
 }
 
-.item li:not(:last-child) {
+.item-list > li:not(:last-child) {
   margin-bottom: 8px;
-}
-
-.item-list li {
-  padding: 8px 16px;
 }
